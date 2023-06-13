@@ -3,7 +3,6 @@
     <div class="service-item" v-for="(service, idx) in services" :key="idx">
       <div class="icon-wrapper">
         <div class="icon">
-          <component :is="service.icon"></component>
         </div>
       </div>
       <div>
@@ -31,13 +30,13 @@
  }
 </style>
 <script>
-import Cog from "../icons/Cog.vue";
+//import Cog from "../icons/Cog.vue";
 import Search from "../icons/Search.vue";
 import Team from "../icons/Team.vue";
 import Draw from "../icons/Draw.vue";
 export default {
   components: {
-    Cog,
+  //  Cog,
     Search,
     Team,
     Draw,
@@ -45,7 +44,7 @@ export default {
   setup() {
     const services = [
       {
-        icon: Cog,
+       // icon: Cog,
         title: "Solidity Team",
         body: "Unleash the power of Web3 with our expert developers, delivering meticulously audited and efficient smart contracts",
       },
