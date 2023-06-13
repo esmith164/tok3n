@@ -1,6 +1,6 @@
 <template>
   <div class="landing">
-    Test!
+    <Header />
   </div>
 </template>
 <style lang="scss">
@@ -8,3 +8,11 @@
   @apply bg-light;
 }
 </style>
+<script>
+import Header from './components/Header.vue'
+export default {
+  components: {
+    Header
+  }
+}
+</script>
