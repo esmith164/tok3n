@@ -31,10 +31,10 @@
  }
 </style>
 <script>
-import Cog from "@/components/icons/Cog.vue";
-import Search from "@/components/icons/Search.vue";
-import Team from "@/components/icons/Team.vue";
-import Draw from "@/components/icons/Draw.vue";
+import Cog from "./icons/Cog.vue";
+import Search from "./icons/Search.vue";
+import Team from "./icons/Team.vue";
+import Draw from "./icons/Draw.vue";
 export default {
   setup() {
     const services = [
