@@ -31,7 +31,7 @@
  }
 </style>
 <script>
-import Cog from "@/components/icons/cog.vue";
+import Cog from "@/components/icons/Cog.vue";
 import Search from "@/components/icons/Search.vue";
 import Team from "@/components/icons/Team.vue";
 import Draw from "@/components/icons/Draw.vue";
