@@ -19,11 +19,8 @@
 <style lang="scss" scoped>
   .header-component {
     @apply h-screen flex flex-col;
-    .container {
-      
-    }
     h1 {
-      @apply text-[85px] font-light text-center uppercase;
+      @apply text-[85px] font-light text-center uppercase tracking-[-4px];
     }
     p {
       @apply text-lg text-center md:w-[600px] mx-auto mb-6;
