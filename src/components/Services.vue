@@ -31,11 +31,17 @@
  }
 </style>
 <script>
-import Cog from "./icons/Cog.vue";
-import Search from "./icons/Search.vue";
-import Team from "./icons/Team.vue";
-import Draw from "./icons/Draw.vue";
+import Cog from "../icons/Cog.vue";
+import Search from "../icons/Search.vue";
+import Team from "../icons/Team.vue";
+import Draw from "../icons/Draw.vue";
 export default {
+  components: {
+    Cog,
+    Search,
+    Team,
+    Draw,
+  },
   setup() {
     const services = [
       {
