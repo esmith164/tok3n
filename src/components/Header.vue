@@ -1,18 +1,20 @@
 <template>
   <div class="header-component">
     <Navbar />
-    <div class="container mx-auto mt-[10%]">
-      <h1 class="-mb-4">TOK3NIZE</h1>
-      <h1 class="mb-4">Your Web 3 Vision</h1>
-      <p>
-        Unlock the true potential of your project with TOK3N's all-in-one
-        solution.
-      </p>
-      <a
-        href="#contact"
-        class="bg-red mx-auto w-[250px] rounded-lg duration-200 hover:opacity-50 flex h-[70px] items-center justify-center text-lg"
-        >Start using TOK3N</a
-      >
+    <div class="container mx-auto my-auto">
+      <div class="-mt-[130px]">
+        <h1 class="-mb-4">TOK3NIZE</h1>
+        <h1 class="mb-4">Your Web 3 Vision</h1>
+        <p>
+          Unlock the true potential of your project with TOK3N's all-in-one
+          solution.
+        </p>
+        <a
+          href="#contact"
+          class="bg-red mx-auto w-[250px] rounded-lg duration-200 hover:opacity-50 flex h-[70px] items-center justify-center text-lg"
+          >Start using TOK3N</a
+        >
+      </div>
     </div>
   </div>
 </template>
