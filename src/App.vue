@@ -2,11 +2,12 @@
   <div class="landing">
     <Header />
     <!-- Services Wrapper -->
-    <div class="container mx-auto">
+    <div class="container mx-auto" id="services">
       <div class="grid grid-cols-3 gap-x-24 gap-y-20 pb-20">
         <div class="col-span-3">
           <h2
             class="text-dark text-[60px] font-light text-center tracking-[-4px]"
+            data-aos="fade-down"
           >
             Services
           </h2>
@@ -19,7 +20,7 @@
         </div>
       </div>
     </div>
-    <Fit />
+    <Fit  />
     <!-- Contact Wrapper -->
     <div class="container mx-auto">
       <div class="grid grid-cols-3 gap-x-24 gap-y-20 pb-20">

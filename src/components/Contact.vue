@@ -1,20 +1,20 @@
 <template>
-  <div class="contact-component">
-    <h1 class="tracking-[-4px] text-5xl font-light mb-4">Contact Us</h1>
-    <p class="text-lg text-[#52525B] mb-6">
+  <div class="contact-component" id="contact">
+    <h1 class="tracking-[-4px] text-5xl font-light mb-4" data-aos="fade-down">Contact Us</h1>
+    <p class="text-lg text-[#52525B] mb-6" data-aos="fade-down">
       Contact us now and get started today.
     </p>
     <!-- Contact Form -->
     <form>
-      <div>
+      <div data-aos="fade-down">
         <label>Discord Username / Telegram Username</label>
         <input type="text" />
       </div>
-      <div>
+      <div data-aos="fade-down"> 
         <label>Twitter Username (Optional)</label>
         <input type="text" />
       </div>
-      <div>
+      <div data-aos="fade-down">
         <label>Project Information</label>
         <textarea type="text" class="resize-none h-[170px]"></textarea>
       </div>
@@ -22,6 +22,7 @@
         <button
           href="#contact"
           class="bg-red ml-auto w-[150px] rounded-lg duration-200 hover:opacity-50 flex h-[70px] items-center justify-center text-lg"
+          data-aos="zoom-in"
         >
           Submit
         </button>

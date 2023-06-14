@@ -1,14 +1,14 @@
 <template>
   <div class="services-component">
     <div class="service-item" v-for="(service, idx) in services" :key="idx">
-      <div class="icon-wrapper">
-        <div class="icon">
+      <div class="icon-wrapper" data-aos="fade-down">
+        <div class="icon" >
           <component :is="service.icon"></component>
         </div>
       </div>
       <div>
-        <h2>{{ service.title }}</h2>
-        <p>{{ service.body }}</p>
+        <h2 data-aos="fade-down">{{ service.title }}</h2>
+        <p data-aos="fade-down">{{ service.body }}</p>
       </div>
     </div>
   </div>

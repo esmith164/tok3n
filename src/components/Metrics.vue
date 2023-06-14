@@ -1,14 +1,14 @@
 <template>
   <div class="metrics-component">
-    <div class="w-9 h-9 bg-black rounded-xl flex items-center justify-center mx-auto mb-6">
+    <div class="w-9 h-9 bg-black rounded-xl flex items-center justify-center mx-auto mb-6" data-aos="zoom-in">
       <Bolt />
     </div>
-    <h2 class="text-2xl text-center font-bold">Utilize Every Service of TO3KN</h2>
-    <h4 class="text-[#667085] text-center text-base mb-8">Everything you need to launch a successful token</h4>
+    <h2 class="text-2xl text-center font-bold" data-aos="fade-down">Utilize Every Service of TO3KN</h2>
+    <h4 class="text-[#667085] text-center text-base mb-8" data-aos="fade-down">Everything you need to launch a successful token</h4>
     <ul class="metric-items">
       <li v-for="(metric, idx) in metrics" :key="idx">
-        <h2>{{ metric.value }}</h2>
-        <h4>{{ metric.name }}</h4>
+        <h2 data-aos="zoom-in">{{ metric.value }}</h2>
+        <h4 data-aos="fade-down">{{ metric.name }}</h4>
       </li>
     </ul>
   </div>

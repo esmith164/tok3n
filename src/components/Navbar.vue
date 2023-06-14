@@ -3,9 +3,9 @@
     <div class="container mx-auto flex">
       <h2>Tok3n</h2>
       <ul class="navbar-links">
-        <li><a href="#services">Services</a></li>
-        <li><a href="#features">Features</a></li>
-        <li><a href="#contact">Contact Us</a></li>
+        <li><a href="#" v-scroll-to="'#services'">Services</a></li>
+        <li><a href="#" v-scroll-to="'#features'">Features</a></li>
+        <li><a href="#" v-scroll-to="'#contact'">Contact Us</a></li>
       </ul>
       <div class="w-[133.16px]"></div>
     </div>
