@@ -18,7 +18,7 @@
       @apply text-4xl uppercase font-light;
     }
     .navbar-links {
-      @apply flex mx-auto gap-x-12 justify-center items-center;
+      @apply hidden lg:flex mx-auto gap-x-12 justify-center items-center;
       li {
         a {
           @apply text-[22px] duration-200 hover:opacity-50 font-medium text-center block;
